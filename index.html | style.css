@@ -1,1 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Palak Yadav | Personal Profile</title>
+
+    <meta name="description"
+          content="Personal profile website of Palak Yadav - IT Student and Web Developer.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span>Palak</span>.
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">
+                    🌙
+                </button>
+
+                <button id="menuToggle" class="menu-btn" aria-label="Open menu">
+                    ☰
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="hello">Hello, I'm</p>
+
+                    <h1>
+                        Palak <span>Yadav</span>
+                    </h1>
+
+                    <h2>
+                        <span id="typingText"></span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm a passionate IT student interested in Web Development,
+                        JavaScript, Cloud Computing and modern technology.
+                        I love learning new skills and creating useful digital experiences.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            View My Work
+                        </a>
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="image-circle">
+
+                        <img src="profile.jpg"
+                             alt="Palak Yadav profile photo">
+
+                    </div>
+
+                    <div class="floating-card card-one">
+                        💻 Web Developer
+                    </div>
+
+                    <div class="floating-card card-two">
+                        ☁️ Cloud Learner
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Get To Know Me</p>
+                    <h2>About <span>Me</span></h2>
+                </div>
+
+                <div class="about-container">
+
+                    <div class="about-image">
+                        <img src="profile.jpg"
+                             alt="Palak Yadav">
+                    </div>
+
+                    <div class="about-content">
+
+                        <h3>I'm an IT Student & Aspiring Developer</h3>
+
+                        <p>
+                            I am a motivated and hardworking individual pursuing
+                            B.Tech in Information Technology. I enjoy exploring
+                            web development, programming and cloud technologies.
+                        </p>
+
+                        <p>
+                            My goal is to continuously improve my technical skills,
+                            work on real-world projects and build a successful
+                            career in the IT industry.
+                        </p>
+
+                        <div class="about-info">
+
+                            <div>
+                                <strong>Name:</strong>
+                                <span>Palak Yadav</span>
+                            </div>
+
+                            <div>
+                                <strong>Course:</strong>
+                                <span>B.Tech / IT</span>
+                            </div>
+
+                            <div>
+                                <strong>Location:</strong>
+                                <span>Indore, Madhya Pradesh</span>
+                            </div>
+
+                            <div>
+                                <strong>Interest:</strong>
+                                <span>Web Development</span>
+                            </div>
+
+                        </div>
+
+                        <a href="#contact" class="btn primary-btn">
+                            Let's Connect
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section education-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>My Academic Journey</p>
+                    <h2>My <span>Education</span></h2>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="year">2025 - Present</span>
+
+                            <h3>B.Tech / Information Technology</h3>
+
+                            <h4>Swami Vivekanand College of Engineering</h4>
+
+                            <p>
+                                Currently pursuing Bachelor of Technology
+                                in Information Technology.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="year">Diploma</span>
+
+                            <h3>Diploma in Computer Science</h3>
+
+                            <p>
+                                Studied computer science fundamentals,
+                                programming and technical concepts.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="year">2022</span>
+
+                            <h3>10th Standard</h3>
+
+                            <h4>MPBSE</h4>
+
+                            <p>
+                                Completed secondary education.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>What I Know</p>
+                    <h2>My <span>Skills</span></h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <div class="progress">
+                            <div style="width: 90%"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <div class="progress">
+                            <div style="width: 85%"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <div class="progress">
+                            <div style="width: 70%"></div>
+                        </div>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>C / C++</h3>
+                        <div class="progress">
+                            <div style="width: 75%"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">📊</div>
+                        <h3>MS Excel</h3>
+                        <div class="progress">
+                            <div style="width: 80%"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">☁️</div>
+                        <h3>AWS</h3>
+                        <div class="progress">
+                            <div style="width: 50%"></div>
+                        </div>
+                        <span>50%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>My Recent Work</p>
+                    <h2>My <span>Projects</span></h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            🌐
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-number">01</span>
+
+                            <h3>Personal Portfolio</h3>
+
+                            <p>
+                                A responsive personal portfolio website
+                                created using HTML, CSS and JavaScript.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            ☕
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-number">02</span>
+
+                            <h3>Coffee Shop Website</h3>
+
+                            <p>
+                                A modern responsive coffee shop website
+                                with interactive elements.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            📄
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-number">03</span>
+
+                            <h3>Resume Service Website</h3>
+
+                            <p>
+                                A service website for creating professional
+                                fresher and job-focused resumes.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>What I Can Do</p>
+                    <h2>My <span>Services</span></h2>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Creating responsive and modern websites
+                            using HTML, CSS and JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📄</div>
+                        <h3>Resume Design</h3>
+                        <p>
+                            Creating professional resumes for students
+                            and freshers.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3>Cloud Learning</h3>
+                        <p>
+                            Learning and exploring AWS and cloud
+                            computing technologies.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p>Let's Talk</p>
+                    <h2>Contact <span>Me</span></h2>
+                </div>
+
+                <div class="contact-container">
+
+                    <div class="contact-info">
+
+                        <h3>Let's work together!</h3>
+
+                        <p>
+                            Have a project, internship opportunity or
+                            collaboration idea? Feel free to contact me.
+                        </p>
+
+                        <div class="contact-item">
+                            <span>📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>your-email@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📱</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+91 XXXXX XXXXX</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Indore, Madhya Pradesh</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <form id="contactForm" class="contact-form">
+
+                        <div class="input-group">
+
+                            <input type="text"
+                                   id="name"
+                                   placeholder="Your Name"
+                                   required>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <input type="email"
+                                   id="email"
+                                   placeholder="Your Email"
+                                   required>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <input type="text"
+                                   id="subject"
+                                   placeholder="Subject"
+                                   required>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <textarea id="message"
+                                      rows="6"
+                                      placeholder="Your Message"
+                                      required></textarea>
+
+                        </div>
+
+                        <button type="submit"
+                                class="btn primary-btn">
+                            Send Message 🚀
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#home" class="logo">
+                    <span>P</span>alak.
+                </a>
+
+                <p>
+                    Building my skills, one project at a time.
+                </p>
+            </div>
+
+            <div class="footer-social">
+
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                © <span id="year"></span> Palak Yadav. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!-- Back To Top -->
+
+    <button id="backToTop"
+            class="back-to-top"
+            aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
